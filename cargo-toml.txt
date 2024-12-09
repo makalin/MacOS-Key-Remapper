@@ -1,0 +1,20 @@
+[package]
+name = "mac-key-remapper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mehmet Akalin <makalin@gmail.com>"]
+description = "A key remapper for macOS with custom actions"
+
+[dependencies]
+enigo = "0.1.2"  # For keyboard simulation
+open = "3.2"     # For opening URLs
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"     # For getting home directory
+ctrlc = "3.4"    # For handling Ctrl+C gracefully
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true

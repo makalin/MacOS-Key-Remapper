@@ -1,0 +1,13 @@
+{
+  "browser_url": "https://www.google.com",
+  "text_shortcuts": [
+    {
+      "trigger": "h",
+      "text": "Hello, World!"
+    },
+    {
+      "trigger": "t",
+      "text": "Thank you very much"
+    }
+  ]
+}
