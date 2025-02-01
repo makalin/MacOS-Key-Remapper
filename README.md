@@ -18,8 +18,8 @@ A customizable key remapping utility for macOS that allows you to transform your
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MacOS-Key-Remapper.git
-   cd mac-key-remapper
+   git clone https://github.com/makalin/MacOS-Key-Remapper.git
+   cd MacOS-Key-Remapper
    ```
 
 3. Build the project:
